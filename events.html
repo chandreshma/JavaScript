@@ -23,18 +23,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<script type="text/javascript">
-		function save(){
+		/*function save(){
 			var s=document.getElementById("event").innerHTML;
 			var user=document.getElementById("user").value
 			comsole.log("user")
 
-		}
+		}*/
 
 
 
 		function save(){
-			var group=document.getElementByClassName("group")
-			var list=document.getElementByTagName("li")
+			var group=document.getElementsByClassName("group")
+			var list=document.getElementsByTagName("li")
 			console.log(list)
 			for(var i=0;i<group.length;i++){
 				console.log(group[i].innerHTML)
